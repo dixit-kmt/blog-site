@@ -17,5 +17,10 @@
     "express": "^4.16.3",
     "lodash": "^4.17.21",
     "mongoose": "^6.4.0"
+  },
+
+  "scripts": {
+    "start": "node node_modules/.bin/http-server",
+    "local": "node_modules/.bin/live-server --port=3000"
   }
 }
