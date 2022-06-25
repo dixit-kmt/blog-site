@@ -20,7 +20,7 @@
   },
 
   "scripts": {
-    "start": "node node_modules/.bin/http-server",
+    "start": "node app.js",
     "local": "node_modules/.bin/live-server --port=3000"
   }
 }
